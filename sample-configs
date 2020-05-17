@@ -1,0 +1,66 @@
+# Copyright (c) 2020 Seamus Lankford
+# Licensed under MIT License
+
+The following are samples of how the stacking and super learner can be configured:
+
+***
+
+layer1_learners = [('rf_1', RandomForestClassifier(n_estimators=10)),
+                   ('knn_1', KNeighborsClassifier(n_neighbors=5))]
+
+layer2_learners = [('dt_2', DecisionTreeClassifier()),
+                   ('rf_2', RandomForestClassifier(n_estimators=50))]
+l1_fe = RandomForestClassifier(n_estimators=100)
+l2_fe = SVC()                   
+
+***
+
+layer1_learners = [('MLP1', MLPClassifier(
+                    hidden_layer_sizes=(100, 100), max_iter=100, alpha=1e-4,
+                    solver='sgd', learning_rate_init=0.02, momentum=0.9, tol=1e-4, random_state=1)),
+                   ('KNN1', KNeighborsClassifier(n_neighbors=5)),
+                   ('RF', RandomForestClassifier(n_estimators=100, max_depth=8, min_samples_leaf=4))
+                   ]
+
+layer2_learners = [('MLP2', MLPClassifier(
+                       hidden_layer_sizes=(100, 100), max_iter=100, alpha=1e-4,
+                       solver='adam', learning_rate_init=0.001, tol=1e-4, random_state=246810)),
+                   ('LR', LogisticRegression())]
+
+l2_fe = RandomForestClassifier(n_estimators=100, max_depth=8, min_samples_leaf=4)
+
+
+***
+
+layer1_learners = [('MLP1', MLPClassifier(
+                    hidden_layer_sizes=(100, 100), max_iter=100, alpha=1e-4,
+                    solver='sgd', learning_rate_init=0.02, momentum=0.9, tol=1e-4, random_state=1)),
+                   ('KNN1', KNeighborsClassifier(n_neighbors=5)),
+                   ('RF', RandomForestClassifier(n_estimators=100, max_depth=8, min_samples_leaf=4)),
+                   ('LR', LogisticRegression()),
+                   ('MLP2', MLPClassifier(
+                       hidden_layer_sizes=(100, 100), max_iter=100, alpha=1e-4,
+                       solver='adam', learning_rate_init=0.001, tol=1e-4, random_state=246810)),
+                   ('dt_2', DecisionTreeClassifier()),
+                   ('svc', SVC())
+                   ]
+l1_fe = RandomForestClassifier(n_estimators=100, max_depth=8, min_samples_leaf=4)
+
+***
+
+layer1_learners = [('MLP1', MLPClassifier(
+                    hidden_layer_sizes=(100, 100), max_iter=100, alpha=1e-4,
+                    solver='sgd', learning_rate_init=0.02, momentum=0.9, tol=1e-4, random_state=1)),
+                   ('KNN1', KNeighborsClassifier(n_neighbors=5)),
+                   ('RF', RandomForestClassifier(n_estimators=100, max_depth=8, min_samples_leaf=4)),
+                   ('LR', LogisticRegression()),
+                   ('MLP2', MLPClassifier(
+                       hidden_layer_sizes=(100, 100), max_iter=100, alpha=1e-4,
+                       solver='adam', learning_rate_init=0.001, tol=1e-4, random_state=246810)),
+                   ('dt_2', DecisionTreeClassifier()),
+                   ('svc_1', SVC(kernel='linear', C=1)),
+                   ('svc_2', SVC(kernel='rbf', gamma=1, C=1))
+                   ]
+l1_fe = SVC()
+
+***
