@@ -15,9 +15,6 @@ developed through such metaheuristics may be combined using stacking ensembles.
 <!---* ## General info
 Add more general information about project. What the purpose of the project is? Motivation? -->
 
-!## Screenshots
-![Example screenshot](./img/screenshot.png)
-
 ## Technologies
 * Python 3.7
 * Tensorflow 1.14
