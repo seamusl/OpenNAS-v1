@@ -37,4 +37,4 @@ pso-CNN:[particle.py, population.py, pso-CNN.py, utils.py]
 Copyright (c) 2020 Francisco Erivaldo Fernandes Junior
 
 ## Contact
-Created by [@seamuslankford] - feel free to contact me!
+Created by @seamuslankford - catch me on twitter!
