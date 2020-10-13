@@ -8,12 +8,16 @@ developed through such metaheuristics may be combined using stacking ensembles.
 
 ## Table of contents
 * [General info](#general-info) <!---* [Screenshots](#screenshots) -->
+* [System Overview](#overview)
 * [Technologies](#technologies) <!---* * [Setup](#setup) -->
 * [Inspiration](#inspiration)
 * [Contact](#contact)
 
 <!---* ## General info
 Add more general information about project. What the purpose of the project is? Motivation? -->
+
+## Screenshots
+./open_nas
 
 ## Technologies
 * Python 3.7
@@ -23,12 +27,13 @@ Add more general information about project. What the purpose of the project is? 
 * Matplotplib 3.1.0.
 
 ## Inspiration
+Dr Diarmuid Grimes, Cork Institute of Technology 
 
-Byla, E. and Pang, W., 2019, September. Deepswarm: Optimising convolutional neural networks using swarm intelligence. In UK Workshop on Computational Intelligence (pp. 119-130). Springer, Cham.
+Junior, F.E.F. and Yen, G.G., 2019. Particle swarm optimization of deep neural networks architectures for image classification. 
+Swarm and Evolutionary Computation, 49, pp.62-74.
 
-Junior, F.E.F. and Yen, G.G., 2019. Particle swarm optimization of deep neural
-networks architectures for image classification. Swarm and Evolutionary Compu-
-tation, 49, pp.62-74.
+Byla, E. and Pang, W., 2019, September. Deepswarm: Optimising convolutional neural networks using swarm intelligence. In UK 
+Workshop on Computational Intelligence (pp. 119-130). Springer, Cham.
 
 DeepSwarm library: 
 Copyright (c) 2019 Edvinas Byla
