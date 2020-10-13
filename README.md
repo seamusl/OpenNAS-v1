@@ -8,7 +8,7 @@ developed through such metaheuristics may be combined using stacking ensembles.
 
 ## Table of contents
 * [General info](#general-info) <!---* [Screenshots](#screenshots) -->
-* [System Overview](#overview)
+* [System Overview](#System Overview)
 * [Technologies](#technologies) 
 * [Setup](#setup)
 * [Inspiration](#inspiration)
