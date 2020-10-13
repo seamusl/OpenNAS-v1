@@ -14,11 +14,11 @@ has been developed. OpenNAS takes any dataset of grayscale, or RBG images, and g
 * [Contact](#contact)
 
 ## General info
-Despite a renewal of interest in AutoML, many of these open source solutions focus on creating simpler neural architectures. Libraries which concentrate on generating more complex architectures, such as CNNs, are at early stages of development. Consequently they are poorly documented and often unreliable. In addition, the alternative of using commercial platforms is expensive and therefore users are left with few practical or viable options.
+Despite a renewal of interest in AutoML, many open source solutions focus on creating simpler neural architectures. Libraries which concentrate on generating more complex architectures, such as CNNs, are at early stages of development. Consequently they are poorly documented and often unreliable. In addition, the alternative of using commercial platforms is expensive and therefore users are left with few practical or viable options.
 
-The development of OpenNAS integrates several metaheuristic approaches in a single application used for the neural architecture search of more complex neural architectures such as convolutional neural networks. Furthermore, the effectiveness of NAS in generating good neural architectures for image classification is evaluated. Standard approaches to NAS, using the AutoKeras framework, are also incorporated into the system design.
+The development of OpenNAS integrates several metaheuristic approaches in a single application used for the neural architecture search of more complex neural architectures such as convolutional neural networks. Standard approaches to NAS, using the AutoKeras framework, are also incorporated into the system design.
 
-A key aspect of the study is to contrast Swarm Intelligence (SI) algorithms for NAS. Consequently, Particle Swarm Optimization (PSO) and Ant Colony Optimization (ACO) have been chosen as metaheuristics for creating high performing CNN architectures for grayscale and RGB image datasets. Furthermore, models developed through such metaheuristics may be combined using stacking ensembles.
+A key aspect of the project is to contrast Swarm Intelligence (SI) algorithms for NAS. Consequently, Particle Swarm Optimization (PSO) and Ant Colony Optimization (ACO) have been chosen as metaheuristics for creating high performing CNN architectures for grayscale and RGB image datasets. Furthermore, models developed through such metaheuristics may be combined using stacking ensembles.
 
 
 ## System Overview
