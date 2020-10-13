@@ -28,9 +28,10 @@ Add more general information about project. What the purpose of the project is? 
 * Matplotplib 3.1.0.
 
 ## Setup
-conda create -n combo python =3.7
-conda activate combo
-conda install tensorflow-gpu==2.1.1
+`put-your-code-here`
+`conda create -n combo python =3.7`
+`conda activate combo`
+`conda install tensorflow-gpu==2.1.1`
 conda install keras =2.2.4
 conda install numpy =1.16.4
 conda install matplotlib =3.1.0
