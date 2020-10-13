@@ -17,7 +17,7 @@ developed through such metaheuristics may be combined using stacking ensembles.
 Add more general information about project. What the purpose of the project is? Motivation? -->
 
 ## Screenshots
-!(open_nas.png)
+![Screenshot](open_nas.png)
 
 ## Technologies
 * Python 3.7
