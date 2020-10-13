@@ -9,7 +9,8 @@ developed through such metaheuristics may be combined using stacking ensembles.
 ## Table of contents
 * [General info](#general-info) <!---* [Screenshots](#screenshots) -->
 * [System Overview](#overview)
-* [Technologies](#technologies) <!---* * [Setup](#setup) -->
+* [Technologies](#technologies) 
+* [Setup](#setup)
 * [Inspiration](#inspiration)
 * [Contact](#contact)
 
@@ -21,10 +22,28 @@ Add more general information about project. What the purpose of the project is? 
 
 ## Technologies
 * Python 3.7
-* Tensorflow 1.14
+* Tensorflow 1.14 (or tensorflow-gpu ==2.1.1)
 * Keras 2.2.4
 * Numpy 1.16.4
 * Matplotplib 3.1.0.
+
+## Setup
+conda create -n combo python =3.7
+conda activate combo
+conda install tensorflow-gpu==2.1.1
+conda install keras =2.2.4
+conda install numpy =1.16.4
+conda install matplotlib =3.1.0
+conda install colorama ==0.4.1
+conda install pyyaml ==5.1
+conda install scikit - learn ==0.20.3
+pip install opencv - python
+pip install deepswarm
+pip install autokeras
+pip install pydot
+sudo apt - get install graphviz
+pip install ruamel . yaml
+
 
 ## Inspiration
 Dr Diarmuid Grimes, Cork Institute of Technology 
