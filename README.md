@@ -11,7 +11,7 @@ developed through such metaheuristics may be combined using stacking ensembles.
 * [System Overview](#system-overview)
 * [Technologies](#technologies) 
 * [Setup](#setup)
-* [Command Line Interface](#cli)
+* [Command Line Interface](#command-line-interface)
 * [Inspiration](#inspiration)
 * [Contact](#contact)
 
