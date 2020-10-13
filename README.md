@@ -1,4 +1,5 @@
-# OpenNAS-v1
+# OpenNAS
+
 A system integrating open source tools for Neural Architecture Search (OpenNAS), in the classification of images, 
 has been developed. OpenNAS takes any dataset of grayscale, or RBG images, and generates Convolutional Neural Network 
 (CNN) architectures based on a range of metaheuristics using either an AutoKeras, a transfer learning or a Swarm Intelligence (SI) approach.
