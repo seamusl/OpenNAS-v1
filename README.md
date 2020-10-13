@@ -11,6 +11,7 @@ developed through such metaheuristics may be combined using stacking ensembles.
 * [System Overview](#system-overview)
 * [Technologies](#technologies) 
 * [Setup](#setup)
+* [Command Line Interface](#cli)
 * [Inspiration](#inspiration)
 * [Contact](#contact)
 
@@ -60,6 +61,9 @@ With the exmaple below, the conda environment is called combo.
 `sudo apt - get install graphviz`
 
 `pip install ruamel . yaml`
+
+## Command Line Interface
+![Screenshot](cli.png)
 
 ## Inspiration
 Dr Diarmuid Grimes, Cork Institute of Technology 
