@@ -28,25 +28,38 @@ Add more general information about project. What the purpose of the project is? 
 * Matplotplib 3.1.0.
 
 ## Setup
-`conda create -n combo python =3.7`
+Using conda virtual environments, create an environment and install appropriate packages.
+With the exmaple below, the conda environment is called combo.
+
+`conda create -n combo python=3.7`
 
 `conda activate combo`
 
 `conda install tensorflow-gpu==2.1.1`
 
-conda install keras =2.2.4
-conda install numpy =1.16.4
-conda install matplotlib =3.1.0
-conda install colorama ==0.4.1
-conda install pyyaml ==5.1
-conda install scikit - learn ==0.20.3
-pip install opencv - python
-pip install deepswarm
-pip install autokeras
-pip install pydot
-sudo apt - get install graphviz
-pip install ruamel . yaml
+`conda install keras =2.2.4`
 
+`conda install numpy =1.16.4`
+
+`conda install matplotlib =3.1.0`
+
+`conda install colorama ==0.4.1`
+
+`conda install pyyaml ==5.1`
+
+`conda install scikit - learn ==0.20.3`
+
+`pip install opencv - python`
+
+`pip install deepswarm`
+
+`pip install autokeras`
+
+`pip install pydot`
+
+`sudo apt - get install graphviz`
+
+`pip install ruamel . yaml`
 
 ## Inspiration
 Dr Diarmuid Grimes, Cork Institute of Technology 
