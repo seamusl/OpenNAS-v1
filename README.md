@@ -17,7 +17,7 @@ developed through such metaheuristics may be combined using stacking ensembles.
 Add more general information about project. What the purpose of the project is? Motivation? -->
 
 ## Screenshots
-!(https://github.com/seamusl/OpenNAS-v1/blob/master/open_nas.png)
+!(open_nas.png)
 
 ## Technologies
 * Python 3.7
