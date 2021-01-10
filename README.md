@@ -68,7 +68,7 @@ With the exmaple below, the conda environment is called combo.
 ## Command Line Interface
 ![Screenshot](cli.png)
 
-## Inspiration
+## Acknowledgements
 Dr Diarmuid Grimes, Cork Institute of Technology 
 
 Junior, F.E.F. and Yen, G.G., 2019. Particle swarm optimization of deep neural networks architectures for image classification. 
